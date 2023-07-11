@@ -144,7 +144,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     margin-top: 50px;
-    padding: 40px 100px ;
+    padding: 40px 100px;
 }
 
 .deal-img {
@@ -159,21 +159,26 @@ header {
     font-size: 12px;
     margin: 10px 0px;
 }
-.deal-title{color: #272727;
+
+.deal-title {
+    color: #272727;
     font-size: 30px;
     font-weight: 800;
 
 }
-.bonus-section-title{
+
+.bonus-section-title {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 10px;
     font-weight: 800;
 }
-span{
+
+span {
     color: red;
 }
-.info{
+
+.info {
     width: 160px;
     height: 150px;
     background-color: lightblue;
@@ -182,51 +187,134 @@ span{
     padding: 10px;
 }
 
-.left-side-colum{
+.left-side-colum {
     display: flex;
     gap: 5px;
-    margin-bottom:10px;
-    
+    margin-bottom: 10px;
+
 }
-.right-side-colum{
+
+.right-side-colum {
     display: flex;
     gap: 5px;
-    
+
 }
-.bonus-section-container{
+
+.bonus-section-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
     padding: 50px;
 }
-.text-area-title{
+
+.text-area-title {
     font-size: 25px;
     font-weight: 800px;
     margin-bottom: 30px;
 }
-.text-area-description{
+
+.text-area-description {
     font-weight: 400px;
     color: #272727;
 }
-.bonus-section-container{
+
+.bonus-section-container {
     background-color: border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
-.insta-img{
+
+.insta-img {
     width: 160px;
     height: 180px;
 }
-.insta-heading{
+
+.insta-heading {
     text-align: center;
+
 }
-.insta-title{
-    margin-top: 50px;}
-    
-.insta-container{
+
+.insta-title {
+    margin-top: 50px;
+    color: #272727;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.insta-container {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 30px;
 }
 
-    
+.insta-descriptio {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 20px;
+
+}
+
+.latest-deal {
+    background-color: azure;
+    height: 300px;
+    width: 680px;
+    margin: 0px auto;
+}
+
+.form-container {
+    display: inline-block;
+}
+
+
+
+.one {
+    text-align: center;
+}
+
+.two {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+
+}
+
+footer {
+    background-color: rgb(12, 11, 11);
+    margin-top: 50px;
+    padding: 100px;
+}
+
+.pink-font {
+    color: #E55473;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.footer-title {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.footer-end-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20px;
+}
