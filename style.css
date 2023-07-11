@@ -319,8 +319,9 @@ footer {
     margin-left: 110px;
 
 }
-.mailform{
+.mail-field{
     padding: 8px;
     width: 300px;
     border-radius: 8px;
+    background-color: white;
 }
