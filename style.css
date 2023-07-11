@@ -1,33 +1,26 @@
 * {
     margin: 0px;
 }
-
 body {
     font-family: font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-
 header {
-
     background-color: #E554731A;
     height: 400px;
     padding:
 }
-
 .header-picture {
     width: 300px;
     height: 370px;
 }
-
 .header-container {
     display: flex;
     justify-content: space-around;
     gap: 20px;
     align-items: center;
     padding: 30px;
-
 }
-
 .heading-description {
     width: 500px;
     font-size: 15px;
@@ -35,14 +28,11 @@ header {
     font-style: normal;
     font-weight: 400;
     margin-top: 5px;
-
 }
-
 .header-title {
     font-size: 35px;
     font-weight: 400px;
 }
-
 .primary-button {
     border: none;
     background-color: #E55473;
@@ -50,13 +40,10 @@ header {
     border-radius: 8px;
     margin-top: 10px;
 }
-
 .feature-container {
     text-align: center;
     margin: 100px;
-
 }
-
 .feature-title {
     color: #272727;
     text-align: center;
@@ -64,7 +51,6 @@ header {
     font-weight: 800;
     margin-bottom: 10px;
 }
-
 .feature-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -72,13 +58,11 @@ header {
     font-weight: 400;
     margin-bottom: 50px;
 }
-
 .flower-1 {
     width: 150px;
     height: 220px;
     margin-top: 30px;
 }
-
 .flower-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
@@ -86,7 +70,6 @@ header {
     height: 250px;
     border-radius: 300px 300px 0px 0px;
 }
-
 .flower-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -94,7 +77,6 @@ header {
     height: 250px;
     border-radius: 300px 300px 0px 0px;
 }
-
 .flower-box {
     width: 200px;
     height: 250px;
@@ -102,24 +84,20 @@ header {
     background: rgba(167, 33, 98, 0.15);
     1x
 }
-
 .flower-container {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-
 .icon-img {
     width: 60px;
     height: 60px;
 }
-
 .icon-title {
     color: rgba(39, 39, 39, 0.80);
     font-size: 12px;
     font-weight: 600;
 }
-
 .service-container {
     height: 200px;
     width: 700px;
@@ -131,11 +109,9 @@ header {
     border-radius: 5px;
     background: rgba(39, 39, 39, 0.05);
 }
-
 .icon {
     text-align: center;
 }
-
 .deal-container {
     background: rgba(229, 84, 115, 0.05);
     height: 300px;
@@ -146,12 +122,10 @@ header {
     margin-top: 50px;
     padding: 40px 100px;
 }
-
 .deal-img {
     height: 300px;
     width: 200px;
 }
-
 .deal-container {}
 
 .deal-description {
@@ -159,25 +133,21 @@ header {
     font-size: 12px;
     margin: 10px 0px;
 }
-
 .deal-title {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
 
 }
-
 .bonus-section-title {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 10px;
     font-weight: 800;
 }
-
 span {
     color: red;
 }
-
 .info {
     width: 160px;
     height: 150px;
@@ -186,20 +156,15 @@ span {
     text-align: center;
     padding: 10px;
 }
-
 .left-side-colum {
     display: flex;
     gap: 5px;
     margin-bottom: 10px;
-
 }
-
 .right-side-colum {
     display: flex;
     gap: 5px;
-
 }
-
 .bonus-section-container {
     display: flex;
     justify-content: space-around;
@@ -207,33 +172,26 @@ span {
     gap: 20px;
     padding: 50px;
 }
-
 .text-area-title {
     font-size: 25px;
     font-weight: 800px;
     margin-bottom: 30px;
 }
-
 .text-area-description {
     font-weight: 400px;
     color: #272727;
 }
-
 .bonus-section-container {
     background-color: border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
-
 .insta-img {
     width: 160px;
     height: 180px;
 }
-
 .insta-heading {
     text-align: center;
-
 }
-
 .insta-title {
     margin-top: 50px;
     color: #272727;
@@ -241,28 +199,37 @@ span {
     font-size: 26px;
     font-weight: 800;
 }
-
 .insta-container {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 30px;
 }
-
 .insta-descriptio {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 12px;
     font-weight: 200;
     margin-top: 20px;
-
 }
-
 .latest-deal {
     background-color: azure;
     height: 300px;
     width: 680px;
     margin: 0px auto;
+}
+.form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+    margin-left: 110px;
+}
+.mail-field{
+    padding: 8px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: white;
 }
 .one {
     text-align: center;
@@ -279,21 +246,17 @@ footer {
     margin-top: 50px;
     padding: 100px;
 }
-
 .pink-font {
     color: #E55473;
     font-size: 25px;
     font-weight: 800;
 }
-
 .footer-title {
     font-size: 25px;
     color: white;
     text-align: center;
     margin-bottom: 20px;
-
 }
-
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
@@ -301,27 +264,9 @@ footer {
     font-size: 10px;
     margin: 0px;
 }
-
 .footer-end-title {
     color: whitesmoke;
     text-align: center;
     font-size: 10px;
     margin-top: 20px;
-}
-
-
-
-.form{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: 400px;
-    margin-left: 110px;
-
-}
-.mail-field{
-    padding: 8px;
-    width: 300px;
-    border-radius: 8px;
-    background-color: white;
 }
