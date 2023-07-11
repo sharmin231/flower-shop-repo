@@ -213,5 +213,20 @@ span{
     background-color: border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
+.insta-img{
+    width: 160px;
+    height: 180px;
+}
+.insta-heading{
+    text-align: center;
+}
+.insta-title{
+    margin-top: 50px;}
+    
+.insta-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
     
