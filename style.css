@@ -176,7 +176,7 @@ span{
 .info{
     width: 160px;
     height: 150px;
-    background-color: whitesmoke;
+    background-color: lightblue;
     border-radius: 8px;
     text-align: center;
     padding: 10px;
@@ -208,6 +208,10 @@ span{
 .text-area-description{
     font-weight: 400px;
     color: #272727;
+}
+.bonus-section-container{
+    background-color: border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 }
 
     
