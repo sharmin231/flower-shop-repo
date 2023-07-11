@@ -164,3 +164,50 @@ header {
     font-weight: 800;
 
 }
+.bonus-section-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+span{
+    color: red;
+}
+.info{
+    width: 160px;
+    height: 150px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+
+.left-side-colum{
+    display: flex;
+    gap: 5px;
+    margin-bottom:10px;
+    
+}
+.right-side-colum{
+    display: flex;
+    gap: 5px;
+    
+}
+.bonus-section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.text-area-title{
+    font-size: 25px;
+    font-weight: 800px;
+    margin-bottom: 30px;
+}
+.text-area-description{
+    font-weight: 400px;
+    color: #272727;
+}
+
+    
